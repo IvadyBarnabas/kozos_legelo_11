@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>A Közös Legelő</title>
+</head>
+<body>
+    <main>
+        <nav class="topnav">
+            <ul class="start">
+                    <li id="csillag">*</li>
+                    <li><a href="index.html">A Közös legelő</a></li>
+            </ul>
+            <ul class="end">
+                <li><a href="index.html">Kezdet</a></li>
+                <li><a href="dontes.html">Döntés</a></li>
+                <li><a href="kovetkezmeny.html">Következmény</a></li>
+                <li><a a class="topactive" href="reflexio.html">Reflexió</a></li>
+        </ul>
+        </nav>
+        <header>
+            <div>
+                <h3>4.állomás · Véleményalkotás</h3>
+                <h1>Mit tennél a gazdák helyében?</h1>
+                <p>A döntéseknek egyszerre van egyéni és közös következményük. Az űrlapon nincs egyetlen kötelező "jó válasz": indokold meg az álláspontodat.</p>
+            </div>
+            <div>
+                <h2>Te jössz</h2>
+                <p>Válassz, mérlegelj, érvelj.</p>
+            </div>
+        </header>
+            <nav class="bottomnav">
+                <ul>
+                    <li><a href="index.html">Kezdet</a></li>
+                    <li><a href="dontes.html">Döntés</a></li>
+                    <li><a href="kovetkezmeny.html">Következmény</a></li>
+                    <li><a class="active" href="reflexio.html">Reflexió</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <article>
+                    <h2>Rövid gondolatkísérlet</h2>
+                    <p>Az űrlap a HTML-elemek gyakorlásra készült. A válaszokat az oldal nem értékeli és nem menti el.</p>
+            
+                    <form>
+                        <fieldset>
+                            <legend>1. Mi segíthetett volna megelőzni a legelő túlterhelését</legend>
+                            <div class="block">
+                                <input type="radio" name="gazdak" id="megelozes1">
+                                <label for="megelozes1">A gazdák előre megállapodnak az állatok számáról.</label> <br>
+                            </div>
+                            <div class="block">
+                                <input type="radio" name="gazdak" id="megelozes2">
+                                <label for="megelozes2">Mindenki külön dönt, és később figyelik a legelőt.</label> <br>
+                            </div>
+                            <div class="block">
+                                <input type="radio" name="gazdak" id="megelozes3">
+                                <label for="megelozes3">Más megoldást javasolnék.</label>
+                            </div>
+                        </fieldset><br>
+                        <fieldset>
+                            <legend>2. Mit kellene mérlegelniük? Többet is jelölhetsz.</legend>
+                            <div class="block">
+                            <input type="checkbox" name="gazdak" id="megelozes1">
+                            <label for="megelozes1">Mennyi fű tud újranőni?</label> <br>
+                            </div>
+                            <div class="block">
+                            <input type="checkbox" name="gazdak" id="megelozes2">
+                            <label for="megelozes2">Hogyan hat egy döntés a többi gazdára?</label> <br>
+                            </div>
+                            <div class="block">
+                            <input type="checkbox" name="gazdak" id="megelozes3">
+                            <label for="megelozes3">Mennyi tejhez jutnak később?</label>
+                            </div>
+                        </fieldset><br>
+                        <div class="placeholder">
+                            <label id="cim">3. Indokold meg a javaslatodat 2-3 mondatban!</label>
+                            <textarea id="textarea" name="textarea" rows="4" cols="100" placeholder="Szerintem azért lenne érdemes..."></textarea>
+                        </div> <br>
+                        <p>A gomb csak újratölti ezt az oldalt. Nincs háttérrendszer vagy automatikus kiértékelés: a választ az órán beszéljétek.</p> <br>
+                        <input class="urlapproba" type="submit" value="Űrlap kipróbálása">
+                    </form>
+                </article>
+            
+                <aside>
+                    <h2>Mit gondolhatnak a gazdák?</h2>
+            
+                    <div class="asidecards">
+                        <h2>„Van elég fű.”</h2>
+                        <p>Most mindenkinek jut.</p>
+                    </div>
+            
+                    <div class="asidecards">
+                        <h2>„A legelő közös.”</h2>
+                        <p>A döntésem a többiekre is hatással lehet.</p>
+                    </div>
+                </aside>
+            </div>
+            <div class="outro">
+                <a id="elozo" href="index.html">← Előző oldal</a>
+                <a href="kovetkezmeny.html">Hogyan reagálnak a többiek? →</a>
+            </div>
+            <footer>
+                <p>A történet forrása: <a href="https://example.com" target="_blank">Zöld Föld, szakképzés 9–10., 12–13. oldal.</a>Tanórai feldolgozás, saját megfogalmazásban.</p>
+            </footer>
+    </main>
+</body>
+</html>
